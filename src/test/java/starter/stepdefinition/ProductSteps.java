@@ -56,7 +56,7 @@ public class ProductSteps {
         product.sendHTTPrequest3();
     }
 
-    @Then("I fail get all product data with status code 405")
+    @Then("I fail get all product data with status code 404")
     public void getAllProductFail405() {
         product.response3();
     }
